@@ -11,3 +11,7 @@ class AboutMe(TemplateView):
 
 class Contact(TemplateView):
     template_name = 'home/contact.html'
+
+
+class Offer(TemplateView):
+    template_name = 'home/offer.html'
