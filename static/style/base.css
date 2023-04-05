@@ -1,4 +1,14 @@
-#main-logo{
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+head {
+    font-family: 'Alkatra', alkatra;
+}
+
+body {
+    font-family: 'Alkatra', alkatra;
+}
+
+#main-logo {
     margin-right: 0;
 }
 #main-logo {
@@ -15,35 +25,22 @@
     #social-media {
         width: 30px;
     }
-    .navbar .container-fluid{
-        flex-direction: column;
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
     }
-    .navbar .navbar-nav .nav-item{
-        display: inline-block;
+    .nav-item {
+        margin-left: 20px;
     }
-    .navbar-nav{
-        border-bottom: 2px solid #000;
+    .nav-link {
+        white-space: nowrap;
     }
-    .navbar .navbar-nav .nav-link {
-        padding: 0.5rem 1rem;
-    }
-    .navbar-nav .nav-link {
-      display: inline-block;
-      margin-right: 1em;
-      white-space: nowrap;
+    .ml-auto {
+        margin-left: auto;
     }
 }
 
-.navbar .navbar-nav .nav-link{
-    color: #000;
-    font-size: 1.1em;
-}
-.navbar .navbar-nav{
-    border-top: 2px solid #000;
-    margin-top: .5em;
-}
-
-#contact{
+#contact {
     list-style: none;
     padding: 0;
 }
@@ -53,11 +50,11 @@ ul.social-info > li> i{
     padding-right: 1rem;
 }
 
-body{
+body {
     background: #fff;
 }
 
-.bg-img{
+.bg-img {
     background-image:url(/static/images/photo_homepage3.jpeg);
     background-size: cover;
     background-repeat: no-repeat;

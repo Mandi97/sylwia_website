@@ -1,25 +1,22 @@
 {% load static %}
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <div class="container-fluid py-2">
     <a class="navbar-brand" href="#">
         <img src="{% static 'images/photo_nav.png' %}" id="main-logo" alt="">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{% url 'home:home' %}">Strona główna</a>
+          <a href="{% url 'home:home' %}" class="nav-link active">Strona główna</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'home:o-mnie' %}">O mnie</a>
+          <a href="{% url 'home:o-mnie' %}" class="nav-link active">O mnie</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'home:oferta' %}">Oferta</a>
+          <a href="{% url 'home:oferta' %}" class="nav-link active">Oferta</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'home:kontakt' %}">Kontakt</a>
+          <a href="{% url 'home:kontakt' %}" class="nav-link active">Kontakt</a>
         </li>
           <div class="container-fluid">
             <a class="navbar-brand" href="https://www.facebook.com/SylwiaSzpiechOfficial/">
