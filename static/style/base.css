@@ -52,3 +52,14 @@ ul.social-info > li> i{
     color: #0a53be;
     padding-right: 1rem;
 }
+
+body{
+    background: #fff;
+}
+
+.bg-img{
+    background-image:url(/static/images/photo_homepage2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+}
