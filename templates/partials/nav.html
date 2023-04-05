@@ -10,13 +10,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Strona główna</a>
+          <a class="nav-link active" aria-current="page" href="{% url 'home:home' %}">Strona główna</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">O mnie</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Oferta</a>
+          <a class="nav-link" href="{% url 'home:o-mnie' %}">O mnie</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Cennik</a>
